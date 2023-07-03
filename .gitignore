@@ -103,3 +103,5 @@ ENV/
 *.db
 .vscode
 *.sqlite
+
+app/static/node_modules/*
