@@ -20,7 +20,6 @@ migrate = Migrate(app, db)
 def make_shell_context():
     return dict(db=db, User=User)
 
-
 @app.cli.command()
 def deploy():
     """Run deployment tasks."""

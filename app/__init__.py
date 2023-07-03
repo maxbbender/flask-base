@@ -67,7 +67,7 @@ def createApp(configName):
     app.jinja_env.filters['format_datetime'] = format_datetime
     app.jinja_env.filters['format_date'] = format_date
 
-    CSRF Error Handler
+    # CSRF Error Handler
     from flask_wtf.csrf import CSRFError
     from flask import abort, flash
 
